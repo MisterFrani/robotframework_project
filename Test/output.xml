@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.14.3 on darwin)" generated="2026-02-10T10:40:43.580835" rpa="false" schemaversion="5">
+<suite id="s1" name="loginJdd" source="/Users/franibizi/Documents/robotframework_project/Test/loginJdd.robot">
+<test id="s1-t1" name="login with jdd" line="35">
+<status status="FAIL" start="2026-02-10T10:40:43.674736" elapsed="0.000314">Test cannot be empty.</status>
+</test>
+<status status="FAIL" start="2026-02-10T10:40:43.581567" elapsed="0.093644"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="loginJdd" id="s1" pass="0" fail="1" skip="0">loginJdd</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2026-02-10T10:40:43.673656" level="ERROR">[ DataDriver ] Error in robot file:
+  File "/Users/franibizi/Documents/robotframework_project/Test/loginJdd.robot", line 0</msg>
+<msg time="2026-02-10T10:40:43.673693" level="ERROR">In source file:
+  File "jdd.csv", line 0</msg>
+<msg time="2026-02-10T10:40:43.674661" level="ERROR">Calling method '_start_suite' of listener 'DataDriver' failed: ValueError: Unassigned requiered argument detected: ${username}.</msg>
+</errors>
+</robot>

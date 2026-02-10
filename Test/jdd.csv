@@ -1,0 +1,5 @@
+*** Test Cases ***,username,password,expected_result
+Case1,standard_user,secret_sauce,success
+Case2,problem_user,secret_sauce,success
+Case3,performance_glitch_user,secret_sauce,success
+Case4,wrong_user,wrong_pwd,error
