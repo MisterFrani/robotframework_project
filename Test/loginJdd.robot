@@ -2,7 +2,7 @@
 
 Test Template    login to saucedemo
 Library    SeleniumLibrary
-Library    DataDriver    jdd.csv    dialect=excel    encoding=UTF-8
+Library    DataDriver    jdd.csv    dialect=excel    encoding=UTF-8    SkipEmptyLines=True
 
 *** Variables ***
 
@@ -14,7 +14,6 @@ ${TITLE}    Swag Labs
 *** Test Cases ***
 
 login with jdd
-    
 
 *** Keywords ***
 
